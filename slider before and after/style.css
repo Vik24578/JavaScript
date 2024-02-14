@@ -1,0 +1,58 @@
+.slider-container {
+    width: 800px;
+    height: 800px;
+}
+
+.comparison {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.base-image {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/07/31/19/54/bridge-4375978_1280.jpg");
+    background-size: cover;
+}
+
+.divisor {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/08/13/40/golden-gate-bridge-1654406_1280.jpg");
+    background-size: cover;
+}
+
+input[type=range] {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 40px);
+    left: -20px;
+    background-color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 40px;
+    height: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: transparent;
+    
+}
+input[type=range]::-moz-range-thumb {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+}
