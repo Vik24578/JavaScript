@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.testimonialsContainer {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 250px;
+    border: solid 2px black;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    font-weight: 700;
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: bisque;
+    border-radius: 5px;
+}
